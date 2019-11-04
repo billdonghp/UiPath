@@ -1,0 +1,10 @@
+Uipath的主要数据类型
+1.Integr 整型
+2.String 字符串 存储任何类型的文本
+3.Boolean 布尔型
+4.generic 通用
+5.Array<> 列表 同种数据都能放在一起
+
+
+非String都需要ToString转换
+"flag: " +flag.ToString+" type: " + flag.GetType.ToString

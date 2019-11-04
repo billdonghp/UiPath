@@ -1,0 +1,5 @@
+Flowchart来实现。
+三种输出方式：
+1.打印Log Message
+2.打印write Line
+3.弹窗 Message BOX
