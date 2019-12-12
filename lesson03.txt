@@ -1,0 +1,50 @@
+config("key3") = "val3"
+
+new Dictionary(of String ,String) from {{"key1","val1"},{"key2","val2"}}
+
+#invoke Method
+TargetObject aList
+MethodName  Add
+Parameters  "val4"
+
+new List(of String)from{"val1","val2"}
+
+
+result = "TargetObject aList MethodName  Add success"
+
+parts = result.Split(" "c)
+
+parts = result.Split({"Add","Remote"},StringSplitOptions.None)
+
+ string test = "程$晓$";
+
+  使用：string[] temp = test.Split(new string[] { "$" }, StringSplitOptions.RemoveEmptyEntries);
+  输出结果：数组长度为2 temp[0]="程" temp[1]="晓";
+ 
+
+  使用：string[] temp = test.Split(new string[] { "$" }, StringSplitOptions.None);或string[] temp = test.Split('$');
+
+
+  输出结果：数组长度为3 temp[0]="程" temp[1]="晓" temp[2]="";
+  
+  19.6.0+Branch.master.Sha.adf20656f41da84cdec5e5620b62276717eb7319
+
+
+####
+Source: Message Box
+
+Message: Index was outside the bounds of the array.
+
+Exception Type: System.IndexOutOfRangeException
+
+RemoteException wrapping System.IndexOutOfRangeException: Index was outside the bounds of the array. 
+
+
+
+"hello" + world + Now.ToString(" MMMM yyyy")
+
+Read CSV  - Output DataTable  (set out )
+Output Data Table (set input; set output variable:sampleDataString)
+
+
+   
